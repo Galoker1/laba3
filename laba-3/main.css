@@ -1,0 +1,138 @@
+body{
+  background-color:#95db9a;
+
+
+   
+}
+h1{
+  font-family: Arial;
+  margin-right: 5px;
+}
+p{
+  font-family: Arial;
+}
+.head{
+  height: 80px;
+  width:100%;
+
+
+}
+.menu{
+  height: 80px;
+  width: 10%;
+  min-width:90px;
+  
+  background-color: #67a56d;
+  float:left;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: Arial;
+
+}
+.menu:hover{
+  background-color: #7ea182;
+
+}
+.welcome{
+  margin-top: 100px;
+  height: 500px;
+  width:100%;
+  background-image:url(https://dgdesign.ru/uploads/posts/2016-03/1459189213_kartinka-dlya-shapki-sayta-priroda.jpg) ;
+  background-size:cover;
+  float: left;  
+
+}
+#zag{
+  font-family: Arial;
+  font-size: 70px;
+  margin-left: 20px;
+
+  color: white;
+  z-index: 1;
+
+}
+
+#poiskpole{
+  background-color:#67a56d;
+  margin-left: 5px;
+  width: 300px;
+  height: 40px;
+  border: 2px solid #7ea182;
+  margin-top: 30px;
+  }
+#poiskbtn{
+  background-image: url("lupa.png");
+  width: 40px;
+  height: 40px;
+  background-size:cover;
+}
+.poisk{
+  float: left;
+  height: 40px;
+  width: 420px;
+}
+.container{
+ 
+  max-width: 1400px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.four{
+
+    min-width: 300px;
+    background-color: #83be88;
+    width:22%;
+    height: 300px;
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    float:left;
+
+  }
+.tree{
+    background-color: #83be88;
+    width:31%;
+    min-width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+
+  }
+
+
+
+@media (max-width:1400px){
+  .container{
+    max-width: 900px;
+  }
+  .tree{
+    width:70%;
+    margin-left: 15%;
+  }
+  .four{
+     width:60%;
+    margin-left: 20%;
+
+  }
+
+}
+@media (max-width:700px){
+  .container{
+    max-width:none;
+  }
+    .tree{
+    width:90%;
+    margin-left: 5%;
+  }
+  .four{
+     width:80%;
+    margin-left: 10%;}
+  .menu{
+    width:25%;
+  }
+  }
+}
